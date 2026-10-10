@@ -13,9 +13,9 @@ Abra o arquivo `index.html` no navegador ou use o Live Server no VS Code.
 ## Publicação
 Repositório: https://github.com/viiniciusfj/fundamentos-programacao-web-uninter
 
-Após publicar na branch `main`, habilite GitHub Pages em **Settings > Pages > Deploy from a branch > main / (root)**.
+Site publicado no GitHub Pages.
 
-Endereço esperado: https://viiniciusfj.github.io/fundamentos-programacao-web-uninter/
+Endereço público: https://viiniciusfj.github.io/fundamentos-programacao-web-uninter/
 
 ## Pendências antes da entrega
 - Revisar os textos pessoais e profissionais antes da publicação.
