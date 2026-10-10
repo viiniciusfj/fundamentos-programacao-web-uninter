@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfólio pessoal de Vinicius Ferreguetti Jenier, profissional de infraestrutura de TI.">
+  <title>Vinicius Ferreguetti Jenier | Portfólio de TI</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="cabecalho">
+    <nav class="navegacao container" aria-label="Navegação principal">
+      <a class="marca" href="#inicio">&lt;ViniciusFJ /&gt;</a>
+      <ul class="menu">
+        <li><a href="#sobre">Sobre mim</a></li>
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+      <button id="alternar-tema" class="botao-tema" type="button" aria-label="Alternar tema">☀️</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="inicio" class="destaque container">
+      <p class="etiqueta">TECNOLOGIA • INFRAESTRUTURA • WEB</p>
+      <h1>Olá! Sou Vinicius, apaixonado por <span>tecnologia.</span></h1>
+      <p>Sou Assessor de TI II no Grupo Podium e estudante de Análise e Desenvolvimento de Sistemas na UNINTER. Conheça minha experiência em infraestrutura, virtualização e automação.</p>
+      <a class="botao" href="#portfolio">Conhecer meus projetos →</a>
+    </section>
+
+    <section id="sobre" class="secao secao-alternada">
+      <div class="container">
+        <p class="etiqueta">01 / APRESENTAÇÃO</p>
+        <h2>Sobre mim</h2>
+        <p>Sou Vinicius Ferreguetti Jenier, profissional de Tecnologia da Informação, atualmente atuando como Assessor de TI II no Grupo Podium e estudante de Análise e Desenvolvimento de Sistemas na UNINTER.</p>
+        <p>Minha atuação envolve infraestrutura de TI, administração de servidores, redes corporativas, virtualização, monitoramento e solução de problemas técnicos. Tenho interesse em automação, segurança da informação e desenvolvimento web.</p>
+        <h3>Interesses e hobbies</h3>
+        <p>Nas horas vagas, gosto de estudar e experimentar novas tecnologias para tornar minha casa mais inteligente e integrada. Exploro interruptores e tomadas inteligentes, iluminação RGB e rotinas de voz com Alexa, conectando equipamentos e ambientes em automações que facilitam o dia a dia.</p>
+        <p><a href="https://www.linkedin.com/in/vinicius-ferreguetti-jenier-88802222b/" target="_blank" rel="noopener noreferrer">Conheça meu LinkedIn ↗</a></p>
+      </div>
+    </section>
+
+    <section id="formacao" class="secao">
+      <div class="container">
+        <p class="etiqueta">02 / APRENDIZADO</p>
+        <h2>Formação</h2>
+        <div class="grade">
+          <article class="cartao"><h3>Formação acadêmica</h3><p>Tecnólogo em Análise e Desenvolvimento de Sistemas — UNINTER. Graduação em andamento.</p></article>
+          <article class="cartao"><h3>Conhecimentos técnicos</h3><p>Administração de servidores Windows e Linux (diversas distribuições); firewalls FortiGate, pfSense e SonicWall; monitoramento e integrações com Zabbix e Grafana; virtualização com VMware, vSphere e Proxmox.</p><p class="observacao">Conhecimentos adquiridos na prática; sem certificações profissionais declaradas.</p></article>
+          <article class="cartao"><h3>Idiomas</h3><p>Português — nativo.<br>Inglês — intermediário.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="portfolio" class="secao secao-alternada">
+      <div class="container">
+        <p class="etiqueta">03 / EXPERIÊNCIA PRÁTICA</p>
+        <h2>Portfólio</h2>
+        <div class="grade">
+          <article class="cartao"><h3>Monitoramento de infraestrutura</h3><p>Experiência com Zabbix e Grafana na criação e acompanhamento de monitoramento de serviços, certificados digitais e disponibilidade de ambientes de TI.</p><p class="observacao">Experiência profissional descrita sem divulgar dados internos.</p></article>
+          <article class="cartao"><h3>Administração e automação</h3><p>Atuação com gerenciamento de servidores Windows e Linux, scripts PowerShell, ambientes VMware/vSphere e Proxmox, além de configuração de firewalls FortiGate, pfSense e SonicWall.</p><p class="observacao">Experiência profissional descrita sem divulgar dados internos.</p></article>
+          <article class="cartao"><h3>Automação residencial</h3><p>Projeto pessoal de integração de dispositivos inteligentes, incluindo interruptores, tomadas, luzes RGB e rotinas com Alexa para conectar diferentes ambientes da casa.</p><p class="observacao">Projeto pessoal em evolução.</p></article>
+          <article class="cartao"><h3>Portfólio Web — UNINTER</h3><p>Site pessoal desenvolvido com HTML5, CSS3 e JavaScript puro, com navegação por âncoras e formulário validado.</p><p><a href="https://github.com/viiniciusfj/fundamentos-programacao-web-uninter" target="_blank" rel="noopener noreferrer">Ver código no GitHub ↗</a></p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contato" class="secao">
+      <div class="container contato-container">
+        <div><p class="etiqueta">04 / VAMOS CONVERSAR</p><h2>Contato</h2><p>Preencha o formulário para testar a interação. O envio é apenas uma simulação e não encaminha mensagens reais.</p></div>
+        <form id="formulario-contato" class="formulario" novalidate>
+          <label for="nome">Nome</label><input id="nome" name="nome" type="text" autocomplete="name" required>
+          <label for="email">E-mail</label><input id="email" name="email" type="email" autocomplete="email" required>
+          <label for="mensagem">Mensagem</label><textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+          <button class="botao" type="submit">Simular envio</button>
+          <p id="retorno-formulario" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+  <footer class="rodape"><div class="container">© <span id="ano"></span> Vinicius Ferreguetti Jenier • Desenvolvido com HTML5, CSS3 e JavaScript.</div></footer>
+</body>
+</html>
